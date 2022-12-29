@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>terminal</title>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/shell.js/lib/shell.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+<div id="shell"></div>
+<script type="application/javascript">
+
+    Shell("#shell", {
+
+    }).type(["Hello, terminal!"]);
+</script>
+
+<!--<script type="application/javascript">-->
+<!--    Shell("#shell", {"user": "user"});-->
+<!--</script>-->
+<!--<script type="application/javascript">-->
+<!--    Shell("#shell", {"host": "terminal"});-->
+<!--</script>-->
+<!--<script type="application/javascript">-->
+<!--    Shell("#shell", {"path": "~"});-->
+<!--</script>-->
+<!--<script type="application/javascript">-->
+<!--    Shell("#shell", {"engine": "windows"});-->
+<!--</script>-->
+<!--<script type="application/javascript">-->
+<!--    Shell("#shell", {"theme": "dark"});-->
+<!--</script>-->
+<!--<script type="application/javascript">-->
+<!--    Shell("#shell", {"shadow": true});-->
+<!--</script>-->
+<!--<script type="application/javascript">-->
+<!--    Shell("#shell", {"root": true});-->
+<!--</script>-->
+
+
+<div id="cover-shell" class="shell shell--windows shell--dark shell--responsive shell--shadow shell--typed">
+    <div class="shell__status-bar">
+        <div class="status-bar__icon"><i class="icon-command"></i></div>
+        <div class="status-bar__buttons">
+            <button class="button button--minimize"><i class="icon-minimize"></i></button>
+            <button class="button button--enlarge"><i class="icon-enlarge"></i></button>
+            <button class="button button--close"><i class="icon-close"></i></button>
+        </div>
+        <div class="status-bar__title">Command Prompts</div>
+    </div>
+    <div class="shell__content">
+        <div class="line line--active">
+            <span class="line__prefix"><span class="path">C:\Windows\system32\</span><span class="char">&gt;</span></span><span class="line__command line__command--input">sudo -i</span>
+        </div>
+        <div class="line line--active">
+            <span class="line__command line__command--output">bash: sudo: command not found</span></div>
+        <div class="line line--active">
+            <span class="line__prefix"><span class="path">C:\Windows\system32\</span><span class="char">&gt;</span></span><span class="line__command line__command--input">s</span><span class="typed-cursor" aria-hidden="true">&nbsp;</span>
+        </div>
+        <div class="line"><span class="line__command line__command--output"><br>&gt; A <strong>JavaScript</strong> library to create HTML <strong>terminals</strong> in web pages.<br><br></span>
+        </div>
+        <div class="line"><span class="line__prefix"><span class="path">C:\Windows\system32\</span><span class="char">&gt;</span></span><span class="line__command line__command--input">exit</span>
+        </div>
+        <div class="line"><span class="line__command line__command--output">bash: exit: command not found</span></div>
+        <div class="line"><span class="line__prefix"><span class="path">C:\Windows\system32\</span><span class="char">&gt;</span></span><span class="line__command line__command--idle"><span class="typed-cursor">&nbsp;</span></span>
+        </div>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
+
+
